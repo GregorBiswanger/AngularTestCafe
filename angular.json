@@ -101,9 +101,20 @@
             ],
             "scripts": []
           }
+        },
+        "e2e": {
+          "builder": "angular-testcafe:testcafe",
+          "options": {
+            "browsers": [
+              "chrome"
+            ],
+            "src": [
+              "e2e/*.e2e-spec.ts"
+            ]
+          }
         }
       }
-    }
-  },
-  "defaultProject": "AngularTestCafe"
+    },
+    "defaultProject": "AngularTestCafe"
+  }
 }
